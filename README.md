@@ -1,5 +1,5 @@
 # Title
-mi-gallarie
+Mi-gallarie
 
 # Created by
 Apondi Otieno
@@ -9,7 +9,8 @@ Get to know me a little better than you do already!
 
 # Set-up
 1.  Open the terminal on your machine
-2.  git clone 
+2.  git clone https://github.com/Apondi-Otieno/mi-gallarie.git
+
 # Live Link
 
 # Dependancies
@@ -22,10 +23,12 @@ Get to know me a little better than you do already!
 - gunicorn
 
 # Technologies Used
-1)Python3 .
+1) Python3 
 2) HTML.
-3)Django_bootstrap.
-4)CSS
+3) Django_bootstrap.
+4) CSS
+
 # Contact Me
+If you encounter any bugs, email me on apondioti@gmail.com
 
 # License
