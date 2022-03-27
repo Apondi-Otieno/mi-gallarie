@@ -32,3 +32,6 @@ Get to know me a little better than you do already!
 If you encounter any bugs, email me on apondioti@gmail.com
 
 # License
+MIT License
+
+Copyright (c) 2022 Apondi Otieno
