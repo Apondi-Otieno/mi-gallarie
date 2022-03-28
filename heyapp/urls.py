@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url,include
+from django.contrib import admin
 
 # urlpatterns = [
     
@@ -22,6 +24,7 @@ from django.urls import path
 # ]
 
 urlpatterns=[
+    
     url(r'^admin/', admin.site.urls),
     url(r'^gallery/',include('gallery.urls'))
 ]
