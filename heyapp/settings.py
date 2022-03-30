@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/gallery/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'gallery',
-        'USER': 'b ',
+        'USER': 'b' ,
         'PASSWORD':'apondi',
     }
 }
