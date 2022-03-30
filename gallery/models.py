@@ -32,6 +32,7 @@ class Picture(models.Model):
 
     @classmethod
     def search_by_category(cls, category):
+        image= CloudinaryField("image")
         images = cls.objects.filter(category__name__icontains=category)
         return images
         
