@@ -1,5 +1,5 @@
 from django.db import models
-from cloudinary.models import cloudinaryField
+
 # Create your models here.
 class Category(models.Model):
     name = models.CharField(max_length=200 , unique=True)
@@ -32,7 +32,7 @@ class Picture(models.Model):
 
     @classmethod
     def search_by_category(cls, category):
-        image= CloudinaryField("image")
+       
         images = cls.objects.filter(category__name__icontains=category)
         return images
         
