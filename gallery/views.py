@@ -7,8 +7,8 @@ from django.http import HttpResponse,Http404
 
 
 def home(request):
-    picture=Picture.objects.all()   
-    return render(request, 'index.html',{'picture':picture[::-1]})
+    pictures=Picture.objects.all()   
+    return render(request, 'index.html',{'pictures':pictures})
 
 
 
